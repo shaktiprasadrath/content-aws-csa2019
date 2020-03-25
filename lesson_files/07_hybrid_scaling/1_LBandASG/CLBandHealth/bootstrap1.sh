@@ -5,9 +5,9 @@ cd /var/www/html
 
 
 
-wget https://github.com/linuxacademy/content-aws-csa2019/raw/master/lesson_files/07_hybrid_scaling/1_LBandASG/CLBandHealth/cat1.jpg
-mv cat1.jpg cat.jpg
-wget https://github.com/linuxacademy/content-aws-csa2019/raw/master/lesson_files/07_hybrid_scaling/1_LBandASG/CLBandHealth/index.php
+wget https://github.com/shaktiprasadrath/content-aws-csa2019/blob/master/lesson_files/07_hybrid_scaling/1_LBandASG/CLBandHealth/Surveen_Chawla.jpg
+mv Surveen_Chawla.jpg Surveen-Chawla.jpg
+wget https://github.com/shaktiprasadrath/content-aws-csa2019/blob/master/lesson_files/07_hybrid_scaling/1_LBandASG/CLBandHealth/index.php
 mv /var/www/html/htaccess /var/www/html/.htaccess
 
 mkdir /var/www/html/cat

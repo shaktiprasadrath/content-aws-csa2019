@@ -2,9 +2,9 @@
 yum install -y httpd php git
 
 cd /var/www/html
-wget https://github.com/linuxacademy/content-aws-csa2019/raw/master/lesson_files/07_hybrid_scaling/1_LBandASG/CLBandHealth/cat3.jpg
-mv cat3.jpg cat.jpg
-wget https://github.com/linuxacademy/content-aws-csa2019/raw/master/lesson_files/07_hybrid_scaling/1_LBandASG/CLBandHealth/index.php
+wget https://github.com/shaktiprasadrath/content-aws-csa2019/blob/master/lesson_files/07_hybrid_scaling/1_LBandASG/CLBandHealth/kim-kardashian.jpg
+mv kim-kardashian.jpg kimkardashian.jpg
+wget https://github.com/shaktiprasadrath/content-aws-csa2019/blob/master/lesson_files/07_hybrid_scaling/1_LBandASG/CLBandHealth/index.php
 mv /var/www/html/htaccess /var/www/html/.htaccess
 
 
