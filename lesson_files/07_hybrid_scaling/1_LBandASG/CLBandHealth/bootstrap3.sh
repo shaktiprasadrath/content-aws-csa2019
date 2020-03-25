@@ -3,13 +3,13 @@ yum install -y httpd php git
 
 cd /var/www/html
 wget https://github.com/shaktiprasadrath/content-aws-csa2019/blob/master/lesson_files/07_hybrid_scaling/1_LBandASG/CLBandHealth/kim-kardashian.jpg
-mv kim-kardashian.jpg kimkardashian.jpg
+mv kim-kardashian.jpg model.jpg
 wget https://github.com/shaktiprasadrath/content-aws-csa2019/blob/master/lesson_files/07_hybrid_scaling/1_LBandASG/CLBandHealth/index.php
 mv /var/www/html/htaccess /var/www/html/.htaccess
 
 
 mkdir /var/www/html/models
-cp /var/www/html/kimkardashian.jpg /var/www/html/models
+cp /var/www/html/model.jpg /var/www/html/models
 cp /var/www/html/index.php /var/www/html/models
 cp /var/www/html/.htaccess /var/www/html/models
 
