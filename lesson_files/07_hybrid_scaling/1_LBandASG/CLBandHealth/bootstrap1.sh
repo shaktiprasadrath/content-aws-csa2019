@@ -10,10 +10,10 @@ mv Surveen_Chawla.jpg Surveen-Chawla.jpg
 wget https://github.com/shaktiprasadrath/content-aws-csa2019/blob/master/lesson_files/07_hybrid_scaling/1_LBandASG/CLBandHealth/index.php
 mv /var/www/html/htaccess /var/www/html/.htaccess
 
-mkdir /var/www/html/cat
-cp /var/www/html/cat.jpg /var/www/html/cat
-cp /var/www/html/index.php /var/www/html/cat
-cp /var/www/html/.htaccess /var/www/html/cat
+mkdir /var/www/html/models
+cp /var/www/html/Surveen-Chawla.jpg /var/www/html/models
+cp /var/www/html/index.php /var/www/html/models
+cp /var/www/html/.htaccess /var/www/html/models
 
 sudo systemctl start httpd
 sudo systemctl enable httpd

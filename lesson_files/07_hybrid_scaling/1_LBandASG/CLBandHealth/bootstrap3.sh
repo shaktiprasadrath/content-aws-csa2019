@@ -8,10 +8,10 @@ wget https://github.com/shaktiprasadrath/content-aws-csa2019/blob/master/lesson_
 mv /var/www/html/htaccess /var/www/html/.htaccess
 
 
-mkdir /var/www/html/cat
-cp /var/www/html/cat.jpg /var/www/html/cat
-cp /var/www/html/index.php /var/www/html/cat
-cp /var/www/html/.htaccess /var/www/html/cat
+mkdir /var/www/html/models
+cp /var/www/html/kimkardashian.jpg /var/www/html/models
+cp /var/www/html/index.php /var/www/html/models
+cp /var/www/html/.htaccess /var/www/html/models
 
 sudo systemctl start httpd
 sudo systemctl enable httpd
